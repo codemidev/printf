@@ -13,7 +13,7 @@ long long convertToDecimal(int Number, int base)
 	{
 		decimalNumber += (Number % 10) * power(base, i);
 		++i;
-		Number / = 10;
+		Number /= 10;
 	}
 	i = 1;
 	return (decimalNumber);
